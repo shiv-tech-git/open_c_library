@@ -1,0 +1,30 @@
+﻿  vec.c
+D:\code\open_c_library\src\vec.c(25,34): warning C4047: =: "AllocatorInterface *" отличается по уровням косвенного обращения от "AllocatorInterface **"
+D:\code\open_c_library\src\vec.c(65,58): warning C4047: ==: "size_t" отличается по уровням косвенного обращения от "void *"
+D:\code\open_c_library\src\vec.c(99,1): warning C4090: инициализация: разные квалификаторы "const"
+D:\code\open_c_library\src\vec.c(108,27): warning C4047: return: "Vec" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(112,9): warning C4013: memcpy: нет определения; предполагается "extern" с возвратом типа "int"
+D:\code\open_c_library\src\vec.c(127,10): warning C4013: add: нет определения; предполагается "extern" с возвратом типа "int"
+D:\code\open_c_library\src\vec.c(149,27): warning C4047: return: "Vec" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(193,41): warning C4554: "&": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+D:\code\open_c_library\src\vec.c(208,7): warning C4013: sort: нет определения; предполагается "extern" с возвратом типа "int"
+D:\code\open_c_library\src\vec.c(238,1): warning C4090: инициализация: разные квалификаторы "const"
+D:\code\open_c_library\src\vec.c(258,26): warning C4047: <: "size_t (__cdecl *)(const Vec)" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(555,29): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(560,34): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(569,29): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(578,29): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(587,29): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(596,29): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(605,32): warning C4047: return: "void *" отличается по уровням косвенного обращения от "int"
+D:\code\open_c_library\src\vec.c(666,17): warning C4047: return: "int32_t" отличается по уровням косвенного обращения от "char *"
+D:\code\open_c_library\src\vec.c(670,14): warning C4047: return: "int32_t" отличается по уровням косвенного обращения от "void *"
+D:\code\open_c_library\src\vec.c(740,58): warning C4113: "void (__cdecl *)(uint64_t,const void *,void *)" отличается в списках параметров от "void (__cdecl *)(uint32_t,const void *,void *)"
+D:\code\open_c_library\src\vec.c(744,60): warning C4113: "void (__cdecl *)(uint64_t,const void *,void *)" отличается в списках параметров от "void (__cdecl *)(uint32_t,const void *,void *)"
+D:\code\open_c_library\src\vec.c(747,1): warning C4113: "Vec (__cdecl *)(size_t,AllocatorInterface *)" отличается в списках параметров от "Vec (__cdecl *)(size_t,const AllocatorInterface)"
+D:\code\open_c_library\src\vec.c(101): warning C4716: destruct: должна возвращать значение
+D:\code\open_c_library\src\vec.c(190): warning C4716: make_static: должна возвращать значение
+D:\code\open_c_library\src\vec.c(210): warning C4715: make_ordered: значение возвращается не при всех путях выполнения
+D:\code\open_c_library\src\vec.c(224): warning C4716: set_compare_fn: должна возвращать значение
+D:\code\open_c_library\src\vec.c(228): warning C4716: set_elem_destructor: должна возвращать значение
+D:\code\open_c_library\src\vec.c(728): warning C4715: sort: значение возвращается не при всех путях выполнения

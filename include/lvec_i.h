@@ -4,17 +4,19 @@
 #include <stdlib.h>
 #include <inttypes.h>
 
-typedef struct tagLightVector LightVector_t;
-typedef struct LightVector_t* LVec;
+#define LVEC_START_CAPACITY					8
+#define	LVEC_REALLOC_SCALE_FACTOR		2
+
+typedef struct tagLightVector* LVec;
 
 typedef struct {
-	LVec 		(*construct)(size_t elem_size);
-	int32_t		(*destruct)(LVec v);
-	size_t 		(*size)(const LVec v);
-	size_t		(*elem_size)(const LVec v);
-	int32_t		(*add)(LVec v, void* elem);
-	int32_t		(*erase_at)(LVec v, size_t index);
-	void*		(*data)(const LVec v);
+	LVec 			(*construct)(size_t elem_size);
+	void			(*destruct)(LVec lvec);
+	size_t 		(*size)(const LVec lvec);
+	size_t		(*elem_size)(const LVec lvec);
+	void*			(*data)(const LVec lvec);
+	int32_t		(*add)(LVec lvec, void* elem);
+	int32_t		(*erase_at)(LVec lvec, size_t index);
 } LightVectorInterface;
 
 extern LightVectorInterface iLVec;
